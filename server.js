@@ -3,7 +3,7 @@
 var express = require('express');
 var app = express();
 var path = require('path');
-var timestamp = require('./timestamp');
+var timestamp = require('./timestampRouter');
 
 //setup public folder
 app.use(express.static(path.join(__dirname, 'public')));
